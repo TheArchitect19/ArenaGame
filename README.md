@@ -99,7 +99,7 @@ To run unit tests for the application, execute the following command:
 ```bash
 cd test
 go test -v
-
+```
 ## Running with Docker Compose
 
 To start the application using Docker Compose, run the following command in your terminal:
