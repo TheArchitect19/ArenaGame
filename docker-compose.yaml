@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  go-arena:
+    build: .
+    container_name: go-arena-container
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
